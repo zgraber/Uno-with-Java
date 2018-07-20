@@ -1,0 +1,10 @@
+package uno.cards;
+
+public class ActionCard extends UNOCard {
+	
+	public ActionCard(int color, String name) {
+		super(color, name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

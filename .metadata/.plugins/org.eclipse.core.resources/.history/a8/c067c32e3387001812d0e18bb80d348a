@@ -1,0 +1,15 @@
+import uno.cards.Deck;
+import uno.player.PlayerHand;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Deck gameDeck = new Deck();
+		gameDeck.addCards();
+		//System.out.println(gameDeck);
+		PlayerHand playerHand = new PlayerHand();
+		playerHand.populateHand(gameDeck);
+		System.out.println(playerHand);
+	}
+
+}

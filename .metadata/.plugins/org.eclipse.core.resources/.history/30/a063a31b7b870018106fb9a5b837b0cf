@@ -1,0 +1,23 @@
+package uno.player;
+
+import uno.cards.Deck;
+
+public class Player {
+	private String playerName;
+	public PlayerHand playerHand;
+	
+	public Player(String name) {
+		this.playerName = name;
+		playerHand = new PlayerHand();
+	}
+	
+	public String getPlayerName() {
+		return this.playerName;
+	}
+	
+	public void makeHand(Deck deck) {
+		playerHand.populateHand(deck);
+	}
+	
+
+}

@@ -1,0 +1,51 @@
+package uno.cards;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+import uno.resources.Constants;
+
+public class Deck {
+	private ArrayList<NumberCard> numberCards;
+	private ArrayList<ActionCard> actionCards;
+	private ArrayList<UNOCard> UNOCards;
+	
+	//Initializes new deck of 108 cards
+	public Deck() {
+		// TODO Auto-generated constructor stub
+		numberCards = new ArrayList<NumberCard>();
+		UNOCards = new ArrayList<UNOCard>();
+		
+	}
+	
+	public void addCards() {
+		
+		for(String color : Constants.COLORS) {
+			
+			for(int j = 0; j < 20; j++) {
+				numberCards.add(new NumberCard(color, color + " " + (j/2), (j/2)));
+				if (j == 0) j++;
+			}
+			for(String action : Constants.ACTIONS) {
+				
+			}
+			
+		}
+		
+		UNOCards.addAll(numberCards);
+		Collections.shuffle(UNOCards);
+	}
+	
+	public UNOCard getTopCard() {
+		return UNOCards.remove(0);	
+	}
+	
+	public String toString() {
+		String returnString = "";
+		for (int i = 0; i < UNOCards.size(); i++) {
+			returnString += (UNOCards.get(i).getName() + "\n");
+		}
+		return returnString;
+	}
+
+}

@@ -1,0 +1,25 @@
+package uno.cards;
+
+public class UNOCard {
+	public static final int GREEN = 0;
+	public static final int BLUE = 1;
+	public static final int RED = 2;
+	public static final int YELLOW = 3;
+	
+	private String name;
+	private String color;
+	
+	public UNOCard(String color, String name) {
+		this.color = color;
+		this.name = name;
+		
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public String getColor() {
+		return this.color;
+	}
+}

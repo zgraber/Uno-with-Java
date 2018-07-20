@@ -1,0 +1,8 @@
+
+public class Constants {
+	public static String[] ACTIONS = {"reverse", "draw 2", "skip"};
+	public Constants() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,21 @@
+package cards;
+
+import java.util.ArrayList;
+
+public class Deck {
+	private ArrayList<NumberCard> numberCards;
+	private ArrayList<UNOCard> UNOCards;
+	
+	//Initializes new deck of 108 cards
+	public Deck() {
+		// TODO Auto-generated constructor stub
+		numberCards = new ArrayList<NumberCard>();
+		UNOCards = new ArrayList<UNOCard>();
+		
+	}
+	
+	public void addCards() {
+		
+	}
+
+}

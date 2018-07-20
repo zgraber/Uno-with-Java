@@ -1,0 +1,13 @@
+package uno.game;
+
+public class Game {
+
+	public Game() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void initGame() {
+		System.out.println("Welcome To UNO!!!");
+	}
+
+}

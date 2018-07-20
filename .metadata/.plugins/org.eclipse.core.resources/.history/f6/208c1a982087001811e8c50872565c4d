@@ -1,0 +1,7 @@
+package cards;
+import
+
+public class UNOCard {
+	public String name;
+	public Color color;
+}
