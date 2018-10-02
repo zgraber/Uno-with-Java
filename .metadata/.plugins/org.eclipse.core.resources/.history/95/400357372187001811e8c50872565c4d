@@ -1,7 +1,0 @@
-package cards;
-import resources.Color;
-
-public class UNOCard {
-	public String name;
-	public Color color;
-}

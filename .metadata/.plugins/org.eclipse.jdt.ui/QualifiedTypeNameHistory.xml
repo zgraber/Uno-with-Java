@@ -5,4 +5,9 @@
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="javax.smartcardio.Card"/>
     <fullyQualifiedTypeName name="resources.Constants"/>
+    <fullyQualifiedTypeName name="uno.cards.NumberCard"/>
+    <fullyQualifiedTypeName name="uno.cards.UNOCard"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="uno.resources.Constants"/>
+    <fullyQualifiedTypeName name="uno.player.PlayerHand"/>
 </qualifiedTypeNameHistroy>
